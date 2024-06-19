@@ -93,16 +93,16 @@ public class InstrumentoInventario {
             if (posicion < listaGeneralProductos.size()) {
 
                 ArrayList<String> listaProductosTemporal=listaGeneralProductos.get(posicion);
-                System.out.println("La cantidad de estudiantes asociados al profesor "+nombreProducto+" es "+listaProductosTemporal.size());
+                System.out.println("La cantidad de productos "+nombreProducto+" es "+listaProductosTemporal.size());
             } else {
                 System.out.println("El profesor "+nombreProducto+" no tiene estudiantes.");
             }
         } else {
-            System.out.println("No se encuentra el profesor "+nombreProducto+"\n");
+            System.out.println("No se encuentra el producto"+nombreProducto+"\n");
         }  
      }
      private void  MostrarInventario() {// Bloque de un codigo que mostrará los productos y la cantidad 
-        System.out.println("\n<<<< Lista de Profesores y Estudiantes >>>>");
+        System.out.println("\n<<<< Lista de Productos >>>>");
         ArrayList<String> listaTemporal;
 
         if (listaProductos.size() > 0) {
